@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Crop Image Before Upload using Cropper JS</title>
+    <title>Crop Image</title>
     <meta name="_token" content="">
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"/>
-    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
     <link rel="stylesheet" href="css/cropper.css"  />
     <link rel="stylesheet" href="css/main.css"  />
     <script src="js/cropper.js" ></script>
@@ -24,7 +24,7 @@ img {
   border: 1px solid red;
 }
 .modal-lg{
-  max-width: 1000px !important;
+  max-width: 1200px !important;
 }
 .modal-open-new .modal {
   overflow-y: auto;
@@ -33,7 +33,7 @@ img {
 </style>
 <body>
 <div class="container">
-    <h1>Crop Image Before Upload using Cropper JS</h1>
+    <h1>Crop Image</h1>
     <form method="post">
     <input type="file" name="image" class="image">
     </form>

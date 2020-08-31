@@ -2,7 +2,7 @@
   <div class="modal-dialog modal-lg" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="modalLabel">PHP Crop Image Before Upload using Cropper JS - NiceSnippets.com</h5>
+        <h5 class="modal-title" id="modalLabel">Crop Image Before Upload</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">×</span>
         </button>
@@ -30,7 +30,7 @@
 
         <!-- <h3>Data:</h3> -->
         <div class="docs-data">
-          <div class="input-group input-group-sm">
+          <!--<div class="input-group input-group-sm">
             <span class="input-group-prepend">
               <label class="input-group-text" for="dataX">X</label>
             </span>
@@ -47,7 +47,7 @@
             <span class="input-group-append">
               <span class="input-group-text">px</span>
             </span>
-          </div>
+          </div>-->
           <div class="input-group input-group-sm">
             <span class="input-group-prepend">
               <label class="input-group-text" for="dataWidth">Width</label>
@@ -66,7 +66,7 @@
               <span class="input-group-text">px</span>
             </span>
           </div>
-          <div class="input-group input-group-sm">
+          <!--<div class="input-group input-group-sm">
             <span class="input-group-prepend">
               <label class="input-group-text" for="dataRotate">Rotate</label>
             </span>
@@ -86,7 +86,7 @@
               <label class="input-group-text" for="dataScaleY">ScaleY</label>
             </span>
             <input type="text" class="form-control" id="dataScaleY" placeholder="scaleY">
-          </div>
+          </div>-->
         </div>
       </div>
     </div>
@@ -292,7 +292,7 @@
             Scale (-2, -1)
           </span>
         </button>
-        <textarea class="form-control" id="putData" placeholder="Get data to here or set data with this value"></textarea>
+        <!--<textarea class="form-control" id="putData" placeholder="Get data to here or set data with this value"></textarea>-->
 
       </div><!-- /.docs-buttons -->
 
@@ -331,7 +331,7 @@
           </label>
         </div>
 
-        <div class="btn-group d-flex flex-nowrap" data-toggle="buttons">
+        <!--<div class="btn-group d-flex flex-nowrap" data-toggle="buttons">
           <label class="btn btn-primary active">
             <input type="radio" class="sr-only" id="viewMode0" name="viewMode" value="0" checked>
             <span class="docs-tooltip" data-toggle="tooltip" title="View Mode 0">
@@ -479,9 +479,8 @@
               </div>
             </li>
           </ul>
-        </div><!-- /.dropdown -->
+        </div> /.dropdown -->
 
-        <a class="btn btn-success btn-block" data-toggle="tooltip" href="https://fengyuanchen.github.io/photo-editor" title="An advanced example of Cropper.js">Photo Editor</a>
 
       </div><!-- /.docs-toggles -->
     </div>
