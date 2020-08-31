@@ -63,7 +63,7 @@ var dataRotate = document.getElementById('dataRotate');
 var dataScaleX = document.getElementById('dataScaleX');
 var dataScaleY = document.getElementById('dataScaleY');
 var options = {
-    aspectRatio: 16 / 9,
+    autoCropArea: 1,
     preview: '.img-preview',
     ready: function (e) {
       console.log(e.type);
